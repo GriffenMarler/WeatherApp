@@ -15,6 +15,7 @@ lists useful weather information and provides icons in an appealing format to th
 7. https://pub.dev/packages/google_fonts#-readme-tab- - Fonts
 8. https://pub.dev/packages/charcode#-installing-tab- - Degree Symbol
 9. https://alligator.io/flutter/flutter-gradient/ for gradient background colors. 
+10. https://www.youtube.com/watch?v=TdWhYERuv7g Helped me understand how to use listview builder 
 
 ## Grading
 * 50 % - The App works 
