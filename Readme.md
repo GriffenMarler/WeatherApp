@@ -1,27 +1,21 @@
 # Flutter Exam 2 - Make a simple flutter app of your own design
 
-## Objectives
-* Demonstrate that you can create a flutter app.
-* Demonstrate that you can find and use flutter packages.
-* Demonstrate that you can make an app that uses good graphic design.
+## App Description
+The application I decided to make for Exam 2 is a useful weather application. This application takes
+the current location of the device and gathers weather data as well as a five day forecast. The application
+lists useful weather information and provides icons in an appealing format to the user. 
 
-## Requirements
-1. Make a simple app from, scratch of your own design. 
-2. The app must make use of one new flutter package that you have never used before.
-3. Use an online resource for good mobile design, for example you could use (Smashing Magazine Comprehensive Guide to App Design)[https://www.smashingmagazine.com/2018/02/comprehensive-guide-to-mobile-app-design/]
-4. Demonstrate your app to the class on one of the following days: Friday April 24th or Friday May 1st, or Monday May 4th 
-
-## Ideas
-* Continue the adventure... Move the adventure game to an app format.
-* Some other very simple game.
-* A tic-tac-toe game.
-* A connect 4 game.
-* A useful app that scrapes weather or other information from a reliable online website.
-* Any other idea as long as it's not just code copied from the web or code that you used for a different project. This needs to be (mostly) your creation from start to finish. Be sure and clearly document /  credit what code you do re-use or copy! You need to apply this code in a new way. 
-
-## What to submit
-* Submit the code you wrote for the app here. 
-* Make sure to use a proper .gitignore so you don't submit all the stuff that Flutter makes for Android or Mac!
+## Resources Used
+1. https://www.smashingmagazine.com/2018/02/comprehensive-guide-to-mobile-app-design/ Consulted this website for strategies on formatting/coloring consistency, minizing user input, standard navigation, fast/responsiveness.
+2. Icons8.com for some 3rd party icons. The full citation for these icons can be viewed under assets/assetcredit.txt
+3. https://www.youtube.com/watch?v=3N27mjoBK2k Assistance in understanding Tab Navigation
+4. Flutter Documentation
+5. https://pub.dev/packages/weather and https://openweathermap.org/weather-conditions for weather API and implementation.
+6. https://pub.dev/packages/intl#-installing-tab- - Date Formatting
+7. https://pub.dev/packages/google_fonts#-readme-tab- - Fonts
+8. https://pub.dev/packages/charcode#-installing-tab- - Degree Symbol
+9. https://alligator.io/flutter/flutter-gradient/ for gradient background colors. 
+10. https://www.youtube.com/watch?v=TdWhYERuv7g Helped me understand how to use listview builder 
 
 ## Grading
 * 50 % - The App works 
