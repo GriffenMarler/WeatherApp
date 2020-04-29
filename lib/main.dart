@@ -44,13 +44,16 @@ class _TabsState extends State<Tabs> with SingleTickerProviderStateMixin {
     return new Scaffold(
         appBar: new AppBar(
             title: new Text("My Weather"),
-            bottom: new TabBar(controller: controller, tabs: <Tab>[
+            ),
+        bottomNavigationBar: new Material( color: Colors.blue,
+          child:  new TabBar(controller: controller, tabs: <Tab>[
               new Tab(
                 icon: new Icon(Icons.home),
                 text: ("Current"),
               ),
               new Tab(icon: new Icon(Icons.calendar_today), text: ("Forecast")),
-            ])),
+            ])
+        ),
         body: new TabBarView(
           controller: controller,
           children: <Widget>[new today.TodayPage(), new weather.ForecastPage()],
