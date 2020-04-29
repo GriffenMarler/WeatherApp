@@ -10,10 +10,10 @@ lists useful weather information and provides icons in an appealing format to th
 2. Icons8.com for some 3rd party icons. The full citation for these icons can be viewed under assets/assetcredit.txt
 3. https://www.youtube.com/watch?v=3N27mjoBK2k Assistance in understanding Tab Navigation
 4. Flutter Documentation
-5. https://pub.dev/packages/weather and https://openweathermap.org/weather-conditions for weather API and implementation.
+5. https://pub.dev/packages/weather and https://openweathermap.org/weather-conditions for weather API and implementation. I have never used this package before.
 6. https://pub.dev/packages/intl#-installing-tab- - Date Formatting
-7. https://pub.dev/packages/google_fonts#-readme-tab- - Fonts
-8. https://pub.dev/packages/charcode#-installing-tab- - Degree Symbol
+7. https://pub.dev/packages/google_fonts#-readme-tab- - Fonts I have never used this package before. 
+8. https://pub.dev/packages/charcode#-installing-tab- - Degree Symbol  I have never used this package before. 
 9. https://alligator.io/flutter/flutter-gradient/ for gradient background colors. 
 10. https://www.youtube.com/watch?v=TdWhYERuv7g Helped me understand how to use listview builder 
 
