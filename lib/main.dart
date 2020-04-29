@@ -5,9 +5,7 @@
 import 'package:flutter/material.dart';
 import 'forecast.dart' as weather;
 import 'today.dart' as today;
-import 'package:weather/weather.dart';
-import 'package:json_string/json_string.dart';
-import 'dart:async';
+
 
 void main() {
   runApp(new MaterialApp(home: new Tabs()));
@@ -16,7 +14,12 @@ void main() {
 // https://www.youtube.com/watch?v=3N27mjoBK2k
 // The video above assisted me in understanding how
 // to use the TabController to manage switching back
-// and forth between Widgets.
+// and forth between Widgets. The video got me started
+// with a base of a TabController, and then I implemented
+// my own custom structure for my app needs. 
+
+// The tab class is responsible for managing the 
+// navigation between the forecast and today pages. 
 class Tabs extends StatefulWidget {
   @override
   _TabsState createState() => _TabsState();
