@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:weather/weather.dart';
 import 'package:json_string/json_string.dart';
 import 'package:intl/intl.dart';
+import 'package:charcode/charcode.dart';
 import 'dart:async';
  
  
@@ -21,6 +22,8 @@ import 'dart:async';
   JsonString json;
   Weather w;
   WeatherStation ws;
+
+  String degree = String.fromCharCode($deg);
 
    @override
 
@@ -71,7 +74,7 @@ import 'dart:async';
                       end: Alignment.bottomLeft,
                       colors: [
                     Colors.blue,
-                    Colors.deepOrange,
+                    Colors.white,
                   ])),
             child: Column( 
                 mainAxisSize: MainAxisSize.min,
@@ -97,8 +100,8 @@ import 'dart:async';
                 padding: EdgeInsets.all(8.0),
               ),
                   Center(
-                child: Text( "Current Temp: (Fahrenheit): " +
-                       w.temperature.fahrenheit.toStringAsPrecision(3),
+                child: Text( "Current Temp: " + 
+                       w.temperature.fahrenheit.toStringAsPrecision(3) + " " + degree + "F",
                        style: GoogleFonts.lato(
                          fontSize: 24
                        ),),
@@ -128,7 +131,7 @@ import 'dart:async';
                       Expanded(
                                           child: ListTile(
                           leading: Image.asset("assets/tempmin.png"),
-                          title: Text(w.tempMin.fahrenheit.toStringAsPrecision(3),
+                          title: Text(w.tempMin.fahrenheit.toStringAsPrecision(3)+ " " + degree + "F",
                           style: GoogleFonts.lato(
                             fontSize: 24
                           ) )
@@ -141,7 +144,7 @@ import 'dart:async';
                       Expanded(
                         child: ListTile(
                           leading: Image.asset("assets/temperature.png"),
-                          title: Text(w.tempMax.fahrenheit.toStringAsPrecision(3),
+                          title: Text(w.tempMax.fahrenheit.toStringAsPrecision(3) + " " + degree + "F",
                           style: GoogleFonts.lato(
                             fontSize: 24
                           )
@@ -173,7 +176,7 @@ import 'dart:async';
                              Expanded(
                                             child: ListTile(
                   leading: Image.asset("assets/humidity.png"),
-                  title: Text(w.humidity.toStringAsPrecision(3) + "%", style: GoogleFonts.lato(
+                  title: Text(w.humidity.toStringAsPrecision(3) + " %", style: GoogleFonts.lato(
                     fontSize: 24
                   )),
                   ),

@@ -51,6 +51,8 @@ class _TabsState extends State<Tabs> with SingleTickerProviderStateMixin {
         body: new TabBarView(
           controller: controller,
           children: <Widget>[new today.TodayPage(), new weather.ForecastPage()],
-        ));
+        )
+        
+        );
   }
 }
