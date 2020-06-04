@@ -1,7 +1,7 @@
-# Flutter Exam 2 - Make a simple flutter app of your own design
+# Weather App for Android
 
 ## App Description
-The application I decided to make for Exam 2 is a useful weather application. This application takes
+The application I decided to make is a functional weather application. This application takes
 the current location of the device and gathers weather data as well as a five day forecast. The application
 lists useful weather information and provides icons in an appealing format to the user. 
 
@@ -17,9 +17,3 @@ lists useful weather information and provides icons in an appealing format to th
 9. https://alligator.io/flutter/flutter-gradient/ for gradient background colors. 
 10. https://www.youtube.com/watch?v=TdWhYERuv7g Helped me understand how to use listview builder 
 
-## Grading
-* 50 % - The App works 
-* 30 % - You used a new flutter package never used before
-* 10 % - Online Presentation
-*  5 % - All online reources used in app development cited in the Readme.md file for the app
-*  5 % - Apealing, creative layout, design and fonts all work together for good design. 
